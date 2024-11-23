@@ -19,3 +19,7 @@ Main function to train a ResNet model on a custom dataset.
 resnet.py
 
 
+For creating resnet 50
+
+base_model.py
+
