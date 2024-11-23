@@ -1,9 +1,9 @@
 main.py
 
 
-Main function to train a ResNet model on a custom dataset.
+To train a ResNet model on a custom dataset.
 
-    This function performs the following steps:
+    Performs the following tasks:
     1. Loads a dataset with random data and targets.
     2. Initializes a DataLoader for batching and shuffling the dataset.
     3. Loads a ResNet model with a specified number of output classes.
@@ -18,8 +18,9 @@ Main function to train a ResNet model on a custom dataset.
     
 resnet.py
 
-
-For creating resnet 50
+For creating resnet 50.
 
 base_model.py
+
+BaseModel is an abstract base class for neural network models.
 
