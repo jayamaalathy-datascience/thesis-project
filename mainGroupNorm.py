@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import DataLoader, random_split
 from torchvision import transforms
-from models.resnet3 import CustomResNet
+from models.resnetGroupNorm import CustomResNet
 from data.cifar100 import CIFAR100Dataset  # Assuming you save the class in cifar100_dataset.py
 import os
 
