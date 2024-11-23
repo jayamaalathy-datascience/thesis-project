@@ -24,3 +24,7 @@ base_model.py
 
 BaseModel is an abstract base class for neural network models.
 
+CIFAR100.py is a custom class for handling the CIFAR-100 dataset.
+
+This class loads the CIFAR-100 dataset using torchvision.
+
