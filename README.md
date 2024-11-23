@@ -15,10 +15,19 @@ To train a ResNet model on a custom dataset.
         - Optimization step: Updates model parameters using the optimizer.
         - Model saving: Saves the model's state dictionary at the end of each epoch.
 
-    
-resnet.py
+
+resnetBatchNorm.py
 
 For creating resnet 50.
+Perform batchNorm on the resnet50 model.
+
+resnetGroupNorm.py, mainGroupNorm.py
+
+Perform Group normalization.
+
+resnetLayerNorm.py, mainLayerNorm.py
+
+Perform Layer normalization.
 
 base_model.py
 
